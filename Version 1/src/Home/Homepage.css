@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    transition: none;
+    transform: none;
+    opacity: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+}
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 100px;
+    box-shadow: inset 0 0 5px grey;
+
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2d5d99;
+    border-radius: 10px;
+  }
+.container-fluid{
+    background-color: #2d5d99;
+    color: white;
+}
+.navbar img{
+    border-radius: 50px;
+}
+text{
+    color: black;
+}
+.image{
+    margin-top: 3rem;
+}
+.container-1{
+    background-color: white;
+    box-shadow: none;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.text1{
+    margin: 0;
+    padding: 0;
+}
+.text1 h1{
+    font-size:60px;
+    color: #2d5d99;
+}
+.text1 h2{
+    font-size: 40px;
+    color: #257065;
+}
+li{
+    font-size:large;
+}
+.buttons{
+    display: grid;
+    padding: 2rem;
+    align-content: center;
+}
+.rect{
+    /* border: 0px solid black; */
+    padding: 2rem;
+    background-color: rgb(206, 215, 225);
+    margin-bottom: 2rem;
+}
+.btn{
+    background-color: #2d5d99;
+    border-radius: 25px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
